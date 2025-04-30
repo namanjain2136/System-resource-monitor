@@ -28,15 +28,3 @@ Install dependencies using: pip install psutil rich
 - **Change monitored disk:**  
   In the get_disk_usage method, change 'C:\\' to your desired drive or path (e.g., `'/'` for Linux/macOS).
 
-## Example Output:
-┏━━━━━━━━━━━ System Overview ━━━━━━━━━━━┓
-┃ CPU: 18.2%                           ┃
-┃ Memory: 65.7%                        ┃
-┃ Disk: 45.8%                          ┃
-┃ Network: 1.45 MB/s | 452.12 KB/s     ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-
-## Logging
-
-- All resource stats are logged to `system_performance.log` in the project directory.
-
